@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple vanilla JavaScript frontend project",
   "scripts": {
-    "dev": "parcel index.html" ,
+    "dev": "parcel index.html",
     "build": "parcel index.html --no-cache",
     "lint": "eslint ."
   },
@@ -11,7 +11,9 @@
   "author": "Your Name",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.23.0",
     "eslint": "^9.23.0",
+    "globals": "^16.0.0",
     "parcel": "^2.14.4"
   }
 }
