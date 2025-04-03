@@ -15,5 +15,6 @@ export default defineConfig([
     rules: {
       "no-console": ["error", { allow: ["warn"] }],
     },
+    ignores: ["node_modules/*","dist/*"],
   },
 ]);
