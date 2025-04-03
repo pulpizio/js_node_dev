@@ -1,0 +1,17 @@
+{
+  "name": "vanilla-frontend",
+  "version": "1.0.0",
+  "description": "A simple vanilla JavaScript frontend project",
+  "scripts": {
+    "dev": "parcel index.html" ,
+    "build": "parcel index.html --no-cache",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.23.0",
+    "parcel": "^2.14.4"
+  }
+}
